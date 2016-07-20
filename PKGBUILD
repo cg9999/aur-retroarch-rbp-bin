@@ -2,20 +2,14 @@
 
 pkgname="retroarch-rbp-bin"
 pkgver="1.3.2"
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple frontend for the Libretro API"
 arch=('arm' 'armv6h' 'armv7h')
-url="http://www.libsdl.org"
+url="http://www.libretro.com"
 license=('GPL')
 provides=('retroarch')
-conflicts=('retroarch retroarch-git')
-depends=(
-	'alsa-lib' 'bzip2' 'freetype2' 'gcc-libs' 'glib2' 'glibc' 'graphite'
-	'harfbuzz' 'libcap' 'libpng' 'libsystemd' 'libusb' 'libx11' 'libxau'
-	'libxcb' 'libxcursor' 'libxdmcp' 'libxext' 'libxfixes' 'libxi'
-	'libxinerama' 'libxkbcommon' 'libxrandr' 'libxrender' 'libxss' 'libxxf86vm'
-	'libz' 'pcre' 'raspberrypi-firmware-tools' 'sdl2'
-)
+conflicts=('retroarch' 'retroarch-git')
+depends=('python' 'libusb' 'libxkbcommon' 'alsa-lib' 'raspberrypi-firmware-tools' 'freetype2' 'sdl2')
 source=(
   "http://downloads.petrockblock.com/retropiebinaries/jessie/rpi2/emulators/retroarch.tar.gz"
 )
