@@ -2,7 +2,7 @@
 
 pkgname="retroarch-rbp-bin"
 pkgver="1.3.2"
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple frontend for the Libretro API"
 arch=('arm' 'armv6h' 'armv7h')
 url="http://www.libretro.com"
