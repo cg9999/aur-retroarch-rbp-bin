@@ -8,7 +8,7 @@ arch=('arm' 'armv6h' 'armv7h')
 url="http://www.libsdl.org"
 license=('GPL')
 provides=('retroarch')
-conflicts=('retroarch retroarch-git')
+conflicts=('retroarch' 'retroarch-git')
 depends=(
 	'alsa-lib' 'bzip2' 'freetype2' 'gcc-libs' 'glib2' 'glibc' 'graphite'
 	'harfbuzz' 'libcap' 'libpng' 'libsystemd' 'libusb' 'libx11' 'libxau'
